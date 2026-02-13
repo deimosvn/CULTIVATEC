@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CultivaTec — Democratizando la Educación STEM</title>
+
+  <!-- SEO Meta -->
+  <meta name="description" content="CultivaTec es una asociación dedicada a democratizar la educación STEM, llevando robótica y tecnología a todos los niños sin importar su condición económica.">
+  <meta name="keywords" content="CultivaTec, STEM, robótica, educación, niños, Mexicali, tecnología educativa, programación">
+  <meta name="author" content="CultivaTec">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="CultivaTec — Democratizando la Educación STEM">
+  <meta property="og:description" content="Llevamos clases de robótica y tecnología a todos los niños del mundo sin importar su condición económica.">
+  <meta property="og:url" content="https://cultivatec.org">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤖</text></svg>">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Phosphor Icons -->
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ==================== PRELOADER ==================== -->
+  <div id="preloader">
+    <img src="logo.png" alt="CultivaTec" class="preloader-logo-img">
+    <div class="preloader-bar"></div>
+  </div>
+
+  <!-- ==================== NAVIGATION ==================== -->
+  <nav class="navbar" role="navigation" aria-label="Navegación principal">
+    <div class="container nav-inner">
+      <a href="#" class="nav-logo" aria-label="CultivaTec - Inicio">
+        <img src="logo.png" alt="CultivaTec" class="nav-logo-img">
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
+        <li><a href="#mision" class="nav-link">Misión</a></li>
+        <li><a href="#programas" class="nav-link">Programas</a></li>
+        <li><a href="#impacto" class="nav-link">Impacto</a></li>
+        <li><a href="#app" class="nav-link">Nuestra App</a></li>
+        <li><a href="#sostenibilidad" class="nav-link">Sostenibilidad</a></li>
+        <li><a href="#contacto" class="nav-link">Contacto</a></li>
+        <li><a href="#contacto" class="nav-cta">Únete al Movimiento</a></li>
+      </ul>
+
+      <button class="hamburger" aria-label="Abrir menú" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ==================== HERO ==================== -->
+  <section class="hero" id="inicio">
+    <div class="hero-grid"></div>
+    <!-- Animated particles -->
+    <div class="hero-particles" aria-hidden="true">
+      <div class="particle particle-1"></div>
+      <div class="particle particle-2"></div>
+      <div class="particle particle-3"></div>
+      <div class="particle particle-4"></div>
+      <div class="particle particle-5"></div>
+      <div class="particle particle-6"></div>
+    </div>
+    <!-- Glowing orbs -->
+    <div class="hero-orb hero-orb-1" aria-hidden="true"></div>
+    <div class="hero-orb hero-orb-2" aria-hidden="true"></div>
+    <div class="hero-orb hero-orb-3" aria-hidden="true"></div>
+
+    <div class="container hero-grid-layout">
+      <!-- Left column: text -->
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="hero-badge-dot"></span>
+          Asociación sin fines de lucro · Mexicali, B.C.
+        </div>
+
+        <div class="hero-brand">
+          <span class="hero-brand-name">Cultiva<span>Tec</span></span>
+        </div>
+
+        <h1>
+          Educación <span class="highlight">STEM</span><br>
+          para todos los niños
+        </h1>
+
+        <p class="hero-description">
+          Democratizamos el acceso a la robótica y la tecnología. Llevamos conocimiento 
+          de calidad a cada rincón, sin importar la condición económica. 
+          Porque todo niño merece construir el futuro.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#programas" class="btn-hero-primary">
+            <i class="ph-bold ph-rocket-launch"></i>
+            Conoce Nuestros Programas
+          </a>
+          <a href="#nosotros" class="btn-hero-outline">
+            <i class="ph-bold ph-info"></i>
+            Nuestra Historia
+          </a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <div class="hero-stat-icon"><i class="ph-fill ph-users-three"></i></div>
+            <div>
+              <div class="hero-stat-number">1,000+</div>
+              <div class="hero-stat-label">Niños impactados</div>
+            </div>
+          </div>
+          <div class="hero-stat-divider"></div>
+          <div class="hero-stat">
+            <div class="hero-stat-icon"><i class="ph-fill ph-map-pin"></i></div>
+            <div>
+              <div class="hero-stat-number">Mexicali</div>
+              <div class="hero-stat-label">Base de operaciones</div>
+            </div>
+          </div>
+          <div class="hero-stat-divider"></div>
+          <div class="hero-stat">
+            <div class="hero-stat-icon"><i class="ph-fill ph-heart"></i></div>
+            <div>
+              <div class="hero-stat-number">100%</div>
+              <div class="hero-stat-label">Gratuito</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right column: logo showcase -->
+      <div class="hero-visual" aria-hidden="true">
+        <div class="hero-orbit-system">
+          <!-- Orbit rings (visible tracks) -->
+          <div class="orbit-track orbit-track-1"></div>
+          <div class="orbit-track orbit-track-2"></div>
+          <div class="orbit-track orbit-track-3"></div>
+
+          <!-- Logo center -->
+          <div class="hero-logo-showcase">
+            <div class="hero-logo-glow"></div>
+            <img src="logo.png" alt="CultivaTec Logo" class="hero-logo-img">
+          </div>
+
+          <!-- Orbit 1 - Inner (fast) -->
+          <div class="orbit orbit-1">
+            <div class="hero-orbit-tag">
+              <i class="ph-fill ph-cpu"></i> Arduino
+            </div>
+          </div>
+          <div class="orbit orbit-1 orbit-opposite">
+            <div class="hero-orbit-tag">
+              <i class="ph-fill ph-lightning"></i> Electrónica
+            </div>
+          </div>
+
+          <!-- Orbit 2 - Middle -->
+          <div class="orbit orbit-2">
+            <div class="hero-orbit-tag">
+              <i class="ph-fill ph-code"></i> Python
+            </div>
+          </div>
+          <div class="orbit orbit-2 orbit-120">
+            <div class="hero-orbit-tag">
+              <i class="ph-fill ph-robot"></i> Robótica
+            </div>
+          </div>
+          <div class="orbit orbit-2 orbit-240">
+            <div class="hero-orbit-tag">
+              <i class="ph-fill ph-game-controller"></i> IoT
+            </div>
+          </div>
+
+          <!-- Orbit 3 - Outer (slow) -->
+          <div class="orbit orbit-3">
+            <div class="hero-orbit-tag">
+              <i class="ph-fill ph-atom"></i> STEM
+            </div>
+          </div>
+          <div class="orbit orbit-3 orbit-90">
+            <div class="hero-orbit-tag">
+              <i class="ph-fill ph-graduation-cap"></i> Educación
+            </div>
+          </div>
+          <div class="orbit orbit-3 orbit-180">
+            <div class="hero-orbit-tag">
+              <i class="ph-fill ph-wrench"></i> Maker
+            </div>
+          </div>
+          <div class="orbit orbit-3 orbit-270">
+            <div class="hero-orbit-tag">
+              <i class="ph-fill ph-brain"></i> IA
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom wave divider -->
+    <div class="hero-wave">
+      <svg viewBox="0 0 1440 120" preserveAspectRatio="none" fill="none">
+        <path d="M0,80 C360,120 720,0 1080,60 C1260,90 1380,80 1440,70 L1440,120 L0,120 Z" fill="white"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- ==================== ABOUT / NOSOTROS ==================== -->
+  <section class="about section-padding" id="nosotros">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image-wrapper reveal-left">
+          <div class="about-image">
+            <img src="https://images.unsplash.com/photo-1581092921461-eab62e97a780?q=80&w=800&auto=format&fit=crop" alt="Niños aprendiendo robótica en un aula" loading="lazy">
+          </div>
+          <div class="about-image-accent"></div>
+          <div class="about-floating-stat">
+            <div class="stat-icon">
+              <i class="ph-fill ph-heart"></i>
+            </div>
+            <div>
+              <div class="stat-number">100%</div>
+              <div class="stat-text">Educación Gratuita</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-text reveal-right">
+          <span class="section-label">Quiénes Somos</span>
+          <h2 class="section-title">Transformamos vidas a través de la tecnología</h2>
+          <p>
+            <strong>CultivaTec</strong> nació con una convicción poderosa: que la educación en ciencia, 
+            tecnología, ingeniería y matemáticas (STEM) no debe ser un privilegio, sino un derecho 
+            accesible para todos los niños.
+          </p>
+          <p>
+            Desde nuestra base en <strong>Mexicali, Baja California</strong>, hemos construido un 
+            movimiento que lleva clases presenciales de robótica a comunidades que normalmente no 
+            tendrían acceso a este tipo de formación. Creemos que en cada niño hay un ingeniero, 
+            un científico, un creador esperando las herramientas correctas.
+          </p>
+
+          <div class="about-features">
+            <div class="about-feature">
+              <div class="about-feature-icon"><i class="ph-fill ph-graduation-cap"></i></div>
+              <span>Educación gratuita y accesible</span>
+            </div>
+            <div class="about-feature">
+              <div class="about-feature-icon"><i class="ph-fill ph-map-pin"></i></div>
+              <span>Clases presenciales en Mexicali</span>
+            </div>
+            <div class="about-feature">
+              <div class="about-feature-icon"><i class="ph-fill ph-device-mobile"></i></div>
+              <span>App web progresiva para aprender</span>
+            </div>
+            <div class="about-feature">
+              <div class="about-feature-icon"><i class="ph-fill ph-users-three"></i></div>
+              <span>Comunidad en crecimiento</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== MISIÓN, VISIÓN, VALORES ==================== -->
+  <section class="mission-vision section-padding" id="mision">
+    <div class="container">
+      <div style="text-align:center; max-width:700px; margin:0 auto 4rem;">
+        <span class="section-label" style="justify-content:center;">Nuestro Propósito</span>
+        <h2 class="section-title">Lo que nos mueve cada día</h2>
+        <p class="section-subtitle" style="margin:0 auto;">
+          Tres pilares que definen nuestra identidad y guían cada decisión que tomamos como asociación.
+        </p>
+      </div>
+
+      <div class="mv-grid stagger-children">
+        <!-- Misión -->
+        <div class="mv-card">
+          <div class="mv-icon">
+            <i class="ph-fill ph-target"></i>
+          </div>
+          <h3>Misión</h3>
+          <p>
+            Democratizar la educación STEM llevando clases y conocimientos de robótica, 
+            programación y tecnología a todos los niños del mundo, sin importar su condición 
+            económica o ubicación geográfica, a través de programas presenciales y herramientas 
+            digitales accesibles.
+          </p>
+        </div>
+
+        <!-- Visión -->
+        <div class="mv-card">
+          <div class="mv-icon">
+            <i class="ph-fill ph-eye"></i>
+          </div>
+          <h3>Visión</h3>
+          <p>
+            Ser la organización líder en educación STEM inclusiva en Latinoamérica, 
+            donde cada niño tenga acceso a las herramientas y el conocimiento necesario 
+            para convertirse en el ingeniero, científico o innovador que transforme su 
+            comunidad y el mundo.
+          </p>
+        </div>
+
+        <!-- Compromiso -->
+        <div class="mv-card">
+          <div class="mv-icon">
+            <i class="ph-fill ph-handshake"></i>
+          </div>
+          <h3>Nuestro Compromiso</h3>
+          <p>
+            No vendemos educación, la compartimos. Cada peso de donación, cada hora de 
+            voluntariado y cada línea de código que creamos tienen un solo destino: que más 
+            niños tengan la oportunidad de soñar, construir y aprender sin barreras.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== PROGRAMAS ==================== -->
+  <section class="programs section-padding" id="programas">
+    <div class="container">
+      <div class="programs-header reveal">
+        <span class="section-label" style="justify-content:center;">Nuestros Programas</span>
+        <h2 class="section-title">Aprendizaje que transforma</h2>
+        <p class="section-subtitle">
+          Dos caminos para llevar robótica y tecnología a cada niño: presencial y digital.
+        </p>
+      </div>
+
+      <div class="programs-grid">
+        <!-- Programa Presencial -->
+        <div class="program-card reveal-left">
+          <div class="program-card-image">
+            <img src="https://images.unsplash.com/photo-1544919982-b61976f0ba43?q=80&w=800&auto=format&fit=crop" alt="Clase presencial de robótica en Mexicali" loading="lazy">
+            <span class="program-badge program-badge-presencial">Presencial</span>
+          </div>
+          <div class="program-card-body">
+            <h3>Clases Presenciales en Mexicali</h3>
+            <p>
+              Nuestro programa insignia. Instructores capacitados visitan escuelas 
+              y comunidades para impartir talleres prácticos de robótica, electrónica 
+              y programación con materiales proporcionados por CultivaTec.
+            </p>
+            <ul class="program-features">
+              <li><i class="ph-fill ph-check-circle"></i> Talleres semanales gratuitos</li>
+              <li><i class="ph-fill ph-check-circle"></i> Material didáctico incluido</li>
+              <li><i class="ph-fill ph-check-circle"></i> Grupos de 6 a 17 años</li>
+              <li><i class="ph-fill ph-check-circle"></i> Instructores certificados</li>
+              <li><i class="ph-fill ph-check-circle"></i> Proyectos prácticos reales</li>
+            </ul>
+            <a href="#contacto" class="program-link">
+              Inscribe a tu escuela <i class="ph-bold ph-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- App PWA -->
+        <div class="program-card reveal-right">
+          <div class="program-card-image">
+            <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?q=80&w=800&auto=format&fit=crop" alt="Niños aprendiendo con tecnología" loading="lazy">
+            <span class="program-badge program-badge-digital">Digital</span>
+          </div>
+          <div class="program-card-body">
+            <h3>App Web Progresiva (PWA)</h3>
+            <p>
+              Nuestra plataforma digital lleva el aprendizaje a cualquier lugar. 
+              Una app web progresiva con lecciones interactivas, videos, ejercicios 
+              y seguimiento de progreso para que ningún niño se quede atrás.
+            </p>
+            <ul class="program-features">
+              <li><i class="ph-fill ph-check-circle"></i> Acceso desde cualquier dispositivo</li>
+              <li><i class="ph-fill ph-check-circle"></i> Funciona sin conexión (PWA)</li>
+              <li><i class="ph-fill ph-check-circle"></i> Lecciones interactivas gamificadas</li>
+              <li><i class="ph-fill ph-check-circle"></i> Seguimiento de progreso</li>
+              <li><i class="ph-fill ph-check-circle"></i> Contenido actualizado constantemente</li>
+            </ul>
+            <a href="#app" class="program-link">
+              Conoce la App <i class="ph-bold ph-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== IMPACTO / ESTADÍSTICAS ==================== -->
+  <section class="impact section-padding" id="impacto">
+    <div class="container">
+      <div class="impact-header reveal">
+        <span class="section-label" style="justify-content:center; color:#60A5FA;">Nuestro Impacto</span>
+        <h2 class="section-title">Números que cuentan historias</h2>
+        <p class="section-subtitle">
+          Cada número representa a un niño que descubrió su pasión, una comunidad que 
+          abrazó la tecnología o un voluntario que decidió marcar la diferencia.
+        </p>
+      </div>
+
+      <div class="impact-stats stagger-children">
+        <div class="impact-stat">
+          <div class="impact-stat-icon"><i class="ph-fill ph-student"></i></div>
+          <div class="impact-stat-number" data-count="1000" data-suffix="+">0</div>
+          <div class="impact-stat-label">Niños Impactados</div>
+        </div>
+        <div class="impact-stat">
+          <div class="impact-stat-icon"><i class="ph-fill ph-chalkboard-teacher"></i></div>
+          <div class="impact-stat-number" data-count="5" data-suffix="">0</div>
+          <div class="impact-stat-label">Voluntarios Activos</div>
+        </div>
+        <div class="impact-stat">
+          <div class="impact-stat-icon"><i class="ph-fill ph-buildings"></i></div>
+          <div class="impact-stat-number" data-count="15" data-suffix="">0</div>
+          <div class="impact-stat-label">Escuelas Aliadas</div>
+        </div>
+        <div class="impact-stat">
+          <div class="impact-stat-icon"><i class="ph-fill ph-wrench"></i></div>
+          <div class="impact-stat-number" data-count="200" data-suffix="+">0</div>
+          <div class="impact-stat-label">Proyectos Construidos</div>
+        </div>
+      </div>
+
+      <!-- Testimonials inside impact -->
+      <div style="margin-top:4rem;">
+        <div class="testimonials-grid stagger-children">
+          <div class="testimonial-card" style="background:rgba(255,255,255,0.04); border-color:rgba(255,255,255,0.06);">
+            <div class="testimonial-stars">
+              <i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i>
+            </div>
+            <p class="testimonial-text" style="color:rgba(255,255,255,0.7);">
+              Mis alumnos nunca habían tocado un robot. Después del taller de CultivaTec, tres de ellos 
+              quieren estudiar ingeniería. Eso no tiene precio.
+            </p>
+            <div class="testimonial-author" style="border-color:rgba(255,255,255,0.06);">
+              <div class="testimonial-avatar">MR</div>
+              <div>
+                <div class="testimonial-name" style="color:#fff;">Mtra. Rosa Mendoza</div>
+                <div class="testimonial-role" style="color:rgba(255,255,255,0.4);">Docente, Escuela Primaria Federal</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card" style="background:rgba(255,255,255,0.04); border-color:rgba(255,255,255,0.06);">
+            <div class="testimonial-stars">
+              <i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i>
+            </div>
+            <p class="testimonial-text" style="color:rgba(255,255,255,0.7);">
+              Aprendí a programar un carrito con Arduino y ahora quiero hacer un robot que ayude a 
+              mi abuelita en la casa. ¡CultivaTec es lo mejor!
+            </p>
+            <div class="testimonial-author" style="border-color:rgba(255,255,255,0.06);">
+              <div class="testimonial-avatar">AC</div>
+              <div>
+                <div class="testimonial-name" style="color:#fff;">Ana Camila, 12 años</div>
+                <div class="testimonial-role" style="color:rgba(255,255,255,0.4);">Estudiante, Mexicali</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card" style="background:rgba(255,255,255,0.04); border-color:rgba(255,255,255,0.06);">
+            <div class="testimonial-stars">
+              <i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i>
+            </div>
+            <p class="testimonial-text" style="color:rgba(255,255,255,0.7);">
+              Como padre, ver a mi hijo entusiasmado aprendiendo sobre circuitos y programación 
+              de forma gratuita me llena de esperanza. Gracias CultivaTec.
+            </p>
+            <div class="testimonial-author" style="border-color:rgba(255,255,255,0.06);">
+              <div class="testimonial-avatar">JD</div>
+              <div>
+                <div class="testimonial-name" style="color:#fff;">Jorge Díaz</div>
+                <div class="testimonial-role" style="color:rgba(255,255,255,0.4);">Padre de familia</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== APP PWA ==================== -->
+  <section class="app-section section-padding" id="app">
+    <div class="container">
+      <div class="app-grid">
+        <div class="app-content reveal-left">
+          <span class="section-label">Nuestra Plataforma Digital</span>
+          <h2 class="section-title">Aprende robótica desde cualquier lugar</h2>
+          <p>
+            Desarrollamos una <strong>App Web Progresiva</strong> que permite a los niños 
+            continuar aprendiendo desde cualquier dispositivo, incluso sin conexión a internet. 
+            Lecciones interactivas, retos de programación y proyectos guiados al alcance de un clic.
+          </p>
+
+          <ul class="app-features-list">
+            <li>
+              <div class="app-feature-icon"><i class="ph-bold ph-globe"></i></div>
+              <div class="app-feature-text">
+                <strong>Acceso Universal</strong>
+                <span>Funciona en cualquier navegador y dispositivo, sin necesidad de descargar desde tiendas de apps.</span>
+              </div>
+            </li>
+            <li>
+              <div class="app-feature-icon"><i class="ph-bold ph-wifi-slash"></i></div>
+              <div class="app-feature-text">
+                <strong>Funciona Sin Internet</strong>
+                <span>La tecnología PWA permite que las lecciones se guarden para usarse offline.</span>
+              </div>
+            </li>
+            <li>
+              <div class="app-feature-icon"><i class="ph-bold ph-game-controller"></i></div>
+              <div class="app-feature-text">
+                <strong>Aprendizaje Gamificado</strong>
+                <span>Sistema de puntos, niveles y logros que motivan a los niños a seguir aprendiendo.</span>
+              </div>
+            </li>
+            <li>
+              <div class="app-feature-icon"><i class="ph-bold ph-video"></i></div>
+              <div class="app-feature-text">
+                <strong>Video Lecciones</strong>
+                <span>Contenido audiovisual explicativo creado por nuestro equipo pedagógico.</span>
+              </div>
+            </li>
+          </ul>
+
+          <a href="#contacto" class="btn-primary-solid">
+            Solicitar Acceso
+            <i class="ph-bold ph-arrow-right"></i>
+          </a>
+        </div>
+
+        <div class="app-visual reveal-right">
+          <div class="app-mockup-glow"></div>
+          <div class="app-mockup">
+            <div class="app-mockup-screen">
+              <i class="ph-fill ph-robot" style="font-size:2.5rem; margin-bottom:0.75rem;"></i>
+              <div class="mockup-logo">CultivaTec</div>
+              <div class="mockup-tagline">Aprende. Construye. Innova.</div>
+              <div class="mockup-icon-grid">
+                <div class="mockup-icon-item"><i class="ph-fill ph-cpu"></i></div>
+                <div class="mockup-icon-item"><i class="ph-fill ph-code"></i></div>
+                <div class="mockup-icon-item"><i class="ph-fill ph-lightning"></i></div>
+                <div class="mockup-icon-item"><i class="ph-fill ph-gear"></i></div>
+                <div class="mockup-icon-item"><i class="ph-fill ph-rocket-launch"></i></div>
+                <div class="mockup-icon-item"><i class="ph-fill ph-brain"></i></div>
+              </div>
+              <div style="margin-top:2rem; width:100%;">
+                <div style="background:rgba(255,255,255,0.15); border-radius:12px; padding:0.75rem 1rem; text-align:left;">
+                  <div style="font-size:0.625rem; opacity:0.6; margin-bottom:0.25rem;">Tu progreso</div>
+                  <div style="height:6px; background:rgba(255,255,255,0.15); border-radius:3px; overflow:hidden;">
+                    <div style="width:65%; height:100%; background:#34D399; border-radius:3px;"></div>
+                  </div>
+                  <div style="font-size:0.625rem; margin-top:0.375rem; opacity:0.7;">Nivel 3 — 65% completado</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== VALORES ==================== -->
+  <section class="values section-padding" id="valores">
+    <div class="container">
+      <div class="values-header reveal">
+        <span class="section-label" style="justify-content:center;">Nuestros Valores</span>
+        <h2 class="section-title">Los principios que nos definen</h2>
+        <p class="section-subtitle">
+          Cada acción que tomamos está guiada por valores que ponen a los niños y la educación en primer lugar.
+        </p>
+      </div>
+
+      <div class="values-grid stagger-children">
+        <div class="value-card">
+          <div class="value-icon"><i class="ph-fill ph-scales"></i></div>
+          <h3>Equidad</h3>
+          <p>Todos los niños merecen las mismas oportunidades de aprendizaje sin importar su condición.</p>
+        </div>
+
+        <div class="value-card">
+          <div class="value-icon"><i class="ph-fill ph-lightbulb"></i></div>
+          <h3>Innovación</h3>
+          <p>Usamos tecnología de vanguardia para crear experiencias educativas que inspiran y motivan.</p>
+        </div>
+
+        <div class="value-card">
+          <div class="value-icon"><i class="ph-fill ph-users"></i></div>
+          <h3>Comunidad</h3>
+          <p>Construimos redes de apoyo entre familias, escuelas y voluntarios para amplificar nuestro impacto.</p>
+        </div>
+
+        <div class="value-card">
+          <div class="value-icon"><i class="ph-fill ph-trophy"></i></div>
+          <h3>Excelencia</h3>
+          <p>Nos comprometemos con la calidad en cada clase, cada material y cada interacción con nuestros alumnos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== MODELO DE SOSTENIBILIDAD ==================== -->
+  <section class="business-model section-padding" id="sostenibilidad">
+    <div class="container">
+      <div class="bm-header reveal">
+        <span class="section-label" style="justify-content:center;">Modelo de Sostenibilidad</span>
+        <h2 class="section-title">Educación gratuita con impacto real</h2>
+        <p class="section-subtitle">
+          Nuestras clases y nuestra app son <strong>100% gratuitas</strong> para los niños. 
+          Nos sostenemos mediante dos vías que generan valor sin comprometer nuestra misión social.
+        </p>
+      </div>
+
+      <div class="bm-grid">
+        <!-- Vía 1: SaaS B2B -->
+        <div class="bm-card reveal-left">
+          <div class="bm-card-badge">Ingresos Recurrentes</div>
+          <div class="bm-card-icon">
+            <i class="ph-fill ph-chart-line-up"></i>
+          </div>
+          <h3>Licencias SaaS para Colegios</h3>
+          <p class="bm-card-subtitle">CultivaTec Analytics Dashboard</p>
+          
+          <p class="bm-card-desc">
+            La app es gratuita y abierta. Pero si una <strong>escuela privada o academia</strong> quiere usarla como 
+            plataforma oficial de tareas y evaluación STEM, accede a nuestro panel analítico por suscripción.
+          </p>
+
+          <div class="bm-features">
+            <div class="bm-feature">
+              <i class="ph-fill ph-lock-key"></i>
+              <span>Aulas cerradas con códigos PIN</span>
+            </div>
+            <div class="bm-feature">
+              <i class="ph-fill ph-clipboard-text"></i>
+              <span>Asignación de tareas específicas</span>
+            </div>
+            <div class="bm-feature">
+              <i class="ph-fill ph-fire"></i>
+              <span>Mapas de calor cognitivos en tiempo real</span>
+            </div>
+            <div class="bm-feature">
+              <i class="ph-fill ph-file-pdf"></i>
+              <span>Reportes PDF con logo del colegio</span>
+            </div>
+          </div>
+
+          <div class="bm-pricing">
+            <div class="bm-price">$10 – $15 <small>USD / alumno / año</small></div>
+          </div>
+
+          <div class="bm-quote">
+            <i class="ph-fill ph-quotes"></i>
+            <p>Le ahorramos a los profesores <strong>15 horas a la semana</strong> en calificación manual y le damos al colegio 
+            una herramienta de prestigio para justificar el valor de su colegiatura ante los padres.</p>
+          </div>
+        </div>
+
+        <!-- Vía 2: Torneos Patrocinados -->
+        <div class="bm-card reveal-right">
+          <div class="bm-card-badge bm-badge-alt">Alto Volumen</div>
+          <div class="bm-card-icon bm-icon-alt">
+            <i class="ph-fill ph-trophy"></i>
+          </div>
+          <h3>Torneos Patrocinados</h3>
+          <p class="bm-card-subtitle">Responsabilidad Social Corporativa (RSC/ESG)</p>
+          
+          <p class="bm-card-desc">
+            Las corporaciones tienen <strong>millones en presupuestos de impacto social</strong> que deben gastar, 
+            pero no saben cómo medir el retorno. Nosotros les damos impacto medible y brand awareness.
+          </p>
+
+          <div class="bm-features">
+            <div class="bm-feature">
+              <i class="ph-fill ph-game-controller"></i>
+              <span>Torneos temáticos dentro de la app</span>
+            </div>
+            <div class="bm-feature">
+              <i class="ph-fill ph-users-three"></i>
+              <span>Miles de niños compitiendo 3 semanas</span>
+            </div>
+            <div class="bm-feature">
+              <i class="ph-fill ph-presentation-chart"></i>
+              <span>Reporte exacto de impacto social</span>
+            </div>
+            <div class="bm-feature">
+              <i class="ph-fill ph-star"></i>
+              <span>Posicionamiento de marca en futuros talentos</span>
+            </div>
+          </div>
+
+          <div class="bm-pricing">
+            <div class="bm-price">$5,000 – $20,000 <small>USD / campaña</small></div>
+          </div>
+
+          <div class="bm-quote">
+            <i class="ph-fill ph-quotes"></i>
+            <p>Su patrocinio enseñó lógica de programación a <strong>15,000 niños</strong> en comunidades vulnerables 
+            y posicionó a su empresa como líder tecnológico en la mente de la próxima generación de ingenieros.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Free guarantee banner -->
+      <div class="bm-guarantee reveal">
+        <div class="bm-guarantee-icon">
+          <i class="ph-fill ph-shield-check"></i>
+        </div>
+        <div>
+          <h4>Compromiso inquebrantable</h4>
+          <p>La app, las clases presenciales y los certificados para los niños <strong>siempre serán 100% gratuitos</strong>. 
+          Nuestro modelo de negocio existe para financiar nuestra misión, nunca para limitarla.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== CTA BANNER ==================== -->
+  <section class="cta-banner section-padding">
+    <div class="container reveal">
+      <h2>¿Quieres ser parte del cambio?</h2>
+      <p>
+        Ya sea como voluntario, donador o aliado institucional, tu apoyo lleva 
+        robótica y tecnología a niños que lo necesitan.
+      </p>
+      <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap;">
+        <a href="#contacto" class="btn-white">
+          <i class="ph-bold ph-hand-heart"></i>
+          Quiero ser Voluntario
+        </a>
+        <a href="#contacto" class="btn-outline" style="border-color:rgba(255,255,255,0.4); color:#fff;">
+          <i class="ph-bold ph-buildings"></i>
+          Alianza Institucional
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== CONTACTO ==================== -->
+  <section class="contact-section section-padding" id="contacto">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info reveal-left">
+          <span class="section-label">Contáctanos</span>
+          <h2 class="section-title">Hablemos sobre el futuro de la educación</h2>
+          <p>
+            ¿Eres una escuela, empresa o persona interesada en llevar CultivaTec a tu 
+            comunidad? ¿Quieres ser voluntario? Estamos listos para escucharte.
+          </p>
+
+          <div class="contact-methods">
+            <div class="contact-method">
+              <div class="contact-method-icon">
+                <i class="ph-fill ph-map-pin"></i>
+              </div>
+              <div>
+                <strong>Ubicación</strong>
+                <span>Mexicali, Baja California, México</span>
+              </div>
+            </div>
+
+            <div class="contact-method">
+              <div class="contact-method-icon">
+                <i class="ph-fill ph-envelope"></i>
+              </div>
+              <div>
+                <strong>Correo electrónico</strong>
+                <span>contacto@cultivatec.org</span>
+              </div>
+            </div>
+
+            <div class="contact-method">
+              <div class="contact-method-icon">
+                <i class="ph-fill ph-clock"></i>
+              </div>
+              <div>
+                <strong>Horario de atención</strong>
+                <span>Lunes a Viernes, 9:00 AM — 6:00 PM</span>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <h4 style="font-size:0.875rem; color:#374151; margin-bottom:0.75rem; font-weight:600;">Síguenos</h4>
+            <div class="social-links">
+              <a href="#" class="social-link" aria-label="Facebook"><i class="ph-logo-facebook"></i></a>
+              <a href="#" class="social-link" aria-label="Instagram"><i class="ph-logo-instagram"></i></a>
+              <a href="#" class="social-link" aria-label="TikTok"><i class="ph-logo-tiktok"></i></a>
+              <a href="#" class="social-link" aria-label="YouTube"><i class="ph-logo-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-wrapper reveal-right">
+          <h3>Envíanos un mensaje</h3>
+          <p>Responderemos en un máximo de 24 horas hábiles.</p>
+
+          <form id="contact-form">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="contact-name">Nombre completo</label>
+                <input type="text" id="contact-name" class="form-input" placeholder="Tu nombre" required>
+              </div>
+              <div class="form-group">
+                <label for="contact-email">Correo electrónico</label>
+                <input type="email" id="contact-email" class="form-input" placeholder="tu@email.com" required>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="contact-subject">Asunto</label>
+              <select id="contact-subject" class="form-input" required>
+                <option value="" disabled selected>Selecciona una opción</option>
+                <option value="voluntario">Quiero ser voluntario</option>
+                <option value="escuela">Llevar CultivaTec a mi escuela</option>
+                <option value="donacion">Realizar una donación</option>
+                <option value="alianza">Alianza institucional / empresarial</option>
+                <option value="app">Información sobre la app</option>
+                <option value="otro">Otro</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="contact-message">Mensaje</label>
+              <textarea id="contact-message" class="form-input" placeholder="Cuéntanos cómo podemos colaborar..." required></textarea>
+            </div>
+
+            <button type="submit" class="form-submit">
+              <i class="ph-bold ph-paper-plane-tilt"></i>
+              Enviar Mensaje
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="nav-logo" style="margin-bottom:1rem;">
+            <div class="nav-logo-icon">
+              <i class="ph-bold ph-robot"></i>
+            </div>
+            CULTIVA<span>TEC</span>
+          </a>
+          <p>
+            Asociación sin fines de lucro dedicada a democratizar la educación STEM, 
+            llevando robótica y tecnología a todos los niños del mundo.
+          </p>
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="Facebook"><i class="ph-logo-facebook"></i></a>
+            <a href="#" class="social-link" aria-label="Instagram"><i class="ph-logo-instagram"></i></a>
+            <a href="#" class="social-link" aria-label="TikTok"><i class="ph-logo-tiktok"></i></a>
+            <a href="#" class="social-link" aria-label="YouTube"><i class="ph-logo-youtube"></i></a>
+          </div>
+        </div>
+
+        <div>
+          <h4>Navegación</h4>
+          <ul class="footer-links">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#mision">Misión y Visión</a></li>
+            <li><a href="#programas">Programas</a></li>
+            <li><a href="#impacto">Impacto</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Programas</h4>
+          <ul class="footer-links">
+            <li><a href="#programas">Clases Presenciales</a></li>
+            <li><a href="#app">App CultivaTec</a></li>
+            <li><a href="#contacto">Voluntariado</a></li>
+            <li><a href="#contacto">Alianzas</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Contacto</h4>
+          <ul class="footer-links">
+            <li><a href="mailto:contacto@cultivatec.org">contacto@cultivatec.org</a></li>
+            <li><a href="#">Mexicali, B.C., México</a></li>
+            <li><a href="#contacto">Formulario de contacto</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>&copy; 2026 CultivaTec. Todos los derechos reservados.</span>
+        <span>Hecho con <i class="ph-fill ph-heart" style="color:#EF4444;"></i> para los niños del mundo.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== BACK TO TOP ==================== -->
+  <button class="back-to-top" aria-label="Volver arriba">
+    <i class="ph-bold ph-caret-up"></i>
+  </button>
+
+  <!-- ==================== SCRIPTS ==================== -->
+  <script src="js/main.js"></script>
+</body>
+</html>

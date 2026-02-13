@@ -1,0 +1,8 @@
+{
+  "name": "cultivatec-website",
+  "version": "1.0.0",
+  "description": "Sitio web profesional de CultivaTec - Democratizando la Educación STEM",
+  "scripts": {
+    "dev": "npx serve -l 3000"
+  }
+}

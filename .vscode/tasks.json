@@ -1,0 +1,31 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Serve CultivaTec Website",
+			"type": "shell",
+			"command": "npx serve -l 3000",
+			"isBackground": true,
+			"problemMatcher": []
+		},
+		{
+			"label": "CultivaTec Dev Server",
+			"type": "shell",
+			"command": "npm run dev",
+			"isBackground": true,
+			"problemMatcher": []
+		},
+		{
+			"label": "CultivaTec Server",
+			"type": "shell",
+			"command": "python -m http.server 8080",
+			"isBackground": true,
+			"problemMatcher": []
+		},
+		{
+			"label": "Git init and push",
+			"type": "shell",
+			"command": "cd \"c:\\Users\\diego\\Desktop\\CULTIVATEC\" && git init && git add . && git commit -m \"Rediseño profesional completo de CultivaTec\" && git branch -M main && git remote add origin https://github.com/deimosvn/CULTIVATEC.git && git push -u origin main --force"
+		}
+	]
+}
